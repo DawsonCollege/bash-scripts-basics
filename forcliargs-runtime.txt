@@ -1,0 +1,16 @@
+tricia@kryten:~/bash$ ./forcliargs2.sh 
+tricia@kryten:~/bash$ ./forcliargs2.sh guess1
+guess1 is NOT the secret word!
+tricia@kryten:~/bash$ ./forcliargs2.sh guess1 CHICKEN cat dog mouse
+guess1 is NOT the secret word!
+CHICKEN is NOT the secret word!
+cat is NOT the secret word!
+dog is NOT the secret word!
+mouse is NOT the secret word!
+tricia@kryten:~/bash$ ./forcliargs2.sh Chicken? Chicken
+Chicken? is NOT the secret word!
+You guessed the secret word: Chicken!
+tricia@kryten:~/bash$ 
+
+
+

@@ -1,0 +1,5 @@
+tricia@kryten:~/bash$ ./iffiletype.sh 
+/etc is a directory
+/etc/passwd is a file
+/etc/shadow exists on the filesystem
+

@@ -1,0 +1,12 @@
+tricia@kryten:~/bash$ ./ifcliargs2.sh 
+Usage: ./ifcliargs2.sh give me exactly 1 command line argument
+tricia@kryten:~/bash$ ./ifcliargs2.sh one two
+Usage: ./ifcliargs2.sh give me exactly 1 command line argument
+tricia@kryten:~/bash$ ./ifcliargs2.sh one
+You did not guess the secret word :( 
+tricia@kryten:~/bash$ ./ifcliargs2.sh "one two"
+You did not guess the secret word :( 
+tricia@kryten:~/bash$ ./ifcliargs2.sh abracadabra
+You guessed the secret word :) 
+tricia@kryten:~/bash$ 
+

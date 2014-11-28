@@ -1,0 +1,10 @@
+tricia@kryten:~/bash$ ./ifcliargs.sh 
+no command line arguments
+tricia@kryten:~/bash$ ./ifcliargs.sh one
+1 command line arguments
+tricia@kryten:~/bash$ ./ifcliargs.sh one abc
+more than one command line arguments
+tricia@kryten:~/bash$ ./ifcliargs.sh one abc def
+more than one command line arguments
+tricia@kryten:~/bash$ 
+

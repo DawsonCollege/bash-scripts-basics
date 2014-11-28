@@ -1,0 +1,18 @@
+tricia@kryten:~/bash$ ./ifcliargs-else.sh 
+no command line arguments
+less than or more than 1 command line argument
+1 or 0 command line arguments
+tricia@kryten:~/bash$ ./ifcliargs-else.sh one
+more than 0 command line arguments
+1 command line arguments
+1 or 0 command line arguments
+tricia@kryten:~/bash$ ./ifcliargs-else.sh aaa bbb
+more than 0 command line arguments
+less than or more than 1 command line argument
+more than one command line arguments
+tricia@kryten:~/bash$ ./ifcliargs-else.sh aaa bbb ccc
+more than 0 command line arguments
+less than or more than 1 command line argument
+more than one command line arguments
+tricia@kryten:~/bash$ 
+
