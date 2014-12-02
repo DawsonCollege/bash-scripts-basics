@@ -1,0 +1,54 @@
+[pcampbell@sonic ~]$ ./cliargsused.sh
+Usage: ./cliargsused.sh  command line args of some sort
+[pcampbell@sonic ~]$ ./cliargsused.sh fish
+$0 ./cliargsused.sh brought to you by PMC
+$1 fish
+$2
+$3
+$# 1
+$@ fish
+[pcampbell@sonic ~]$ ./cliargsused.sh fish swan
+$0 ./cliargsused.sh brought to you by PMC
+$1 fish
+$2 swan
+$3
+$# 2
+$@ fish swan
+[pcampbell@sonic ~]$ ./cliargsused.sh password fish swan
+$0 ./cliargsused.sh brought to you by PMC
+$1 password
+password correct
+$2 fish
+$3 swan
+$# 3
+$@ password fish swan
+[pcampbell@sonic ~]$ ./cliargsused.sh password fish swan PMC duck
+$0 ./cliargsused.sh brought to you by PMC
+$1 password
+password correct
+$2 fish
+$3 swan
+$# 5
+$@ password fish swan PMC duck
+ So glad you are back, lets play
+[pcampbell@sonic ~]$ ./cliargsused.sh password fish swan  duck  pcampbell
+$0 ./cliargsused.sh brought to you by PMC
+$1 password
+password correct
+$2 fish
+$3 swan
+$# 5
+$@ password fish swan duck pcampbell
+  even better its mama!!!
+[pcampbell@sonic ~]$ ./cliargsused.sh password PMC fish swan horse duck  pcampbe
+ll
+$0 ./cliargsused.sh brought to you by PMC
+$1 password
+password correct
+$2 PMC
+$3 fish
+$# 7
+$@ password PMC fish swan horse duck pcampbell
+ So glad you are back, lets play
+  even better its mama!!!
+[pcampbell@sonic ~]$
