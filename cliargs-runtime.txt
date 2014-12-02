@@ -1,0 +1,28 @@
+[pcampbell@sonic ~]$ ./cliargs.sh
+$0 ./cliargs.sh
+$1
+$2
+$3
+$# 0
+$@
+[pcampbell@sonic ~]$ ./cliargs.sh tiger
+$0 ./cliargs.sh
+$1 tiger
+$2
+$3
+$# 1
+$@ tiger
+[pcampbell@sonic ~]$ ./cliargs.sh tiger bear
+$0 ./cliargs.sh
+$1 tiger
+$2 bear
+$3
+$# 2
+$@ tiger bear
+[pcampbell@sonic ~]$ ./cliargs.sh tiger bear mouse cat horse
+$0 ./cliargs.sh
+$1 tiger
+$2 bear
+$3 mouse
+$# 5
+$@ tiger bear mouse cat horse 
